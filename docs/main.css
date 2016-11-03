@@ -10,10 +10,12 @@
   border-color:#4cae4c;
   border-radius: 200px;
   margin-left: auto;
+  border:#4cae4c 1px solid;
 }
 
 .btn-empty:hover {
   background-color: #449d44;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-occupied {
@@ -25,10 +27,12 @@
   background-color:#d9534f;
   border-color: #d43f3a;
   border-radius: 200px;
+  border:#d43f3a 1px solid;
 }
 
 .btn-occupied:hover {
   background-color: #c9302c;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container {
